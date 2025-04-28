@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto sm:px-6 px-1">
         {/* Top Logo and Line */}
         <div className="flex flex-col items-start">
-          <img src="public\images\logo\footerlogo.png" alt="MobiusEngine Logo" className="h-12 mb-1" />
+          <img src="images\logo\footerlogo.png" alt="MobiusEngine Logo" className="h-12 mb-1" />
           <div className="text-blue-700 font-semibold">MobiusEngine</div>
           <div className="w-full border-t border-gray-300 my-6" />
         </div>
