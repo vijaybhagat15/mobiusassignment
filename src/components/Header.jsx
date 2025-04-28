@@ -8,7 +8,7 @@ const Header = () => {
         {/* Logo and Name */}
         <div className="flex items-center gap-2">
           {/* Replace this div with an <img> if you have a logo */}
-            <img src="public\images\logo\headerlogo.png" alt="mobius logo" className="w-12" />
+            <img src="images/logo/headerlogo.png" alt="mobius logo" className="w-12" />
           <span className="text-white font-dm-sans font-medium text-[24px]">MobuisEngine</span>
         </div>
 
