@@ -37,7 +37,7 @@ const coachingPlans = [
 export default function Section7() {
   return (
 <>
-<div className="py-16 px-4 bg-white text-blue-700 font-sora">
+<div className="py-6 px-6 bg-white text-blue-700 font-sora">
       <div className="max-w-5xl mx-auto mb-12">
         <h2 className=" mb-2 font-medium text-[32px] ">
           Resume Building & Coaching 
@@ -82,16 +82,26 @@ export default function Section7() {
         ))}
       </div>
     </div>
-        <div className="bg-blue-600 text-white rounded-2xl flex items-center justify-between p-16 max-w-5xl mx-auto my-16">
-        <div className="flex flex-col">
-          <span className="uppercase text-[24px] tracking-wide">Still have</span>
-          <span className="uppercase text-[24px] tracking-wide">doubts?</span>
-        </div>
-        <h2 className="text-[40px] font-bold font-sora">Contact us</h2>
-        <button className="bg-white text-blue-600 p-4 rounded-full hover:bg-gray-100 transition">
-          <ArrowRight size={24} />
-        </button>
+    <div className="bg-blue-600 text-white rounded-2xl flex flex-col md:flex-row items-center justify-between p-6 md:p-12 lg:p-16 max-w-4xl mx-auto my-6 gap-6">
+      
+      {/* Left Side */}
+      <div className="flex flex-col text-center md:text-left">
+        <span className="uppercase text-lg sm:text-xl md:text-2xl tracking-wide">Still have</span>
+        <span className="uppercase text-lg sm:text-xl md:text-2xl tracking-wide">doubts?</span>
       </div>
+      
+      {/* Center Heading */}
+      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-bold font-sora text-center md:text-left">
+        Contact us
+      </h2>
+
+      {/* Button */}
+      <button className="bg-white text-blue-600 p-3 sm:p-4 rounded-full hover:bg-gray-100 transition">
+        <ArrowRight size={24} />
+      </button>
+
+    </div>
+
 </>
   );
 }

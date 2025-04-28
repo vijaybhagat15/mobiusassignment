@@ -3,8 +3,8 @@ import { FaLinkedin,} from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-white text-blue-600 pt-16">
-      <div className="max-w-7xl mx-auto px-6">
+    <footer className="bg-white text-blue-600 pt-6">
+      <div className="max-w-7xl mx-auto sm:px-6 px-1">
         {/* Top Logo and Line */}
         <div className="flex flex-col items-start">
           <img src="public\images\logo\footerlogo.png" alt="MobiusEngine Logo" className="h-12 mb-1" />
@@ -13,7 +13,7 @@ export default function Footer() {
         </div>
 
         {/* Address, Email, Telephone, Socials */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 sm:gap-8 gap-2 mb-6 overflow-scroll">
           <div>
             <h4 className="font-semibold mb-2 underline">Address</h4>
             <p className="text-blue-600 text-sm">

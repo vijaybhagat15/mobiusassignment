@@ -60,7 +60,7 @@ const advancePlan = {
 
 export default function Section6() {
   return (
-    <section className="py-16 px-20 bg-white font-dm-sans text-blue-700">
+    <section className="py-6 px-6 bg-white font-dm-sans text-blue-700">
       <div className="max-w-7xl mx-auto">
       <h2 className=" mb-12 font-medium text-[32px] ">
         Job Application Service Plans

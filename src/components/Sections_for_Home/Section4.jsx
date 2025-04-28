@@ -77,8 +77,8 @@ const testimonials = [
 
 const Section4 = () => {
   return (
-<div className='px-20 font-dm-sans'>
-<section className="w-full py-20 px-6 bg-white flex flex-col text-blue-700">
+<div className='px-6 font-dm-sans'>
+<section className="w-full py-20 bg-white flex flex-col text-blue-700">
       <h2 className="text-blue-700 mb-12 font-dm-sans font-medium text-[32px] ">
         What our clients have to say
       </h2>
